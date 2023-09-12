@@ -21,8 +21,8 @@ public class week02_02 {
 
 	public static void main(String[] args) {
 		Soccer soccer = new Soccer();
-		System.out.println("경기이름 : " + soccer.getName());
-		System.out.println("경기자수 : " + soccer.getPlayers());
+		System.out.println("경기 이름 : " + soccer.getName());
+		System.out.println("경기자 수 : " + soccer.getPlayers());
 
 	}
 
