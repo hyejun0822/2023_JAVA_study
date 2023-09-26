@@ -66,7 +66,7 @@ public class BusinessCard {
         mainPanel.add(textPanel, gbc);
 
         frame.pack();
-        frame.setResizable(true); // 크기 조절 가능하도록 설정
+        frame.setResizable(true);
         frame.setVisible(true);
     }
 }

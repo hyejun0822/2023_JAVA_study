@@ -76,7 +76,7 @@ public class Person {
         frame.add(new JScrollPane(resultArea), BorderLayout.CENTER);
 
         JPanel buttonPanel = new JPanel();
-        buttonPanel.setLayout(new GridLayout(1, 3, 10, 10)); // 1 row, 3 columns
+        buttonPanel.setLayout(new GridLayout(1, 3, 10, 10));
         JButton saveButton = new JButton("저장");
         JButton searchButton = new JButton("검색");
         JButton exitButton = new JButton("종료");
@@ -121,7 +121,7 @@ public class Person {
             addressField.setText("");
             resultArea.append("연락처가 저장되었습니다.\n");
         } else {
-            JOptionPane.showMessageDialog(frame, "모든 필드를 입력하세요.", "오류", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(frame, "모든 옵션을 입력하세요.", "오류", JOptionPane.ERROR_MESSAGE);
         }
     }
 
